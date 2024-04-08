@@ -2,20 +2,42 @@
 <html lang="es">
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>contacto</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>clase 11_3</title>
 </head>
-<body>
+<body class="contbody">
     <header>
-            <nav>
-                <h1>logo</h1>
+            <nav class="contnav">
+                <div class="logo">
+                    <a href="../logo/index.html"><img src="../img/logob.png" width="120px"></a></div>
         <ul>
-            <li><a href="index.html">INICIO</a></li>
-                <li><a href="proyectos/index.html">PROYECTOS</a></li>
-                    <li><a href="avances/index.html">AVANCES</a></li>
-                        <li><a href="contacto/index.html">CONTACTO</a></li>
+            <li><a href="../index.html" class="a4">INICIO</a></li>
+                <li><a href="../proyectos/index.html" class="a4">PROYECTOS</a></li>
+                    <li><a href="../avances/index.html" class="a4">AVANCES</a></li>
+                        <li><a href="../contacto/index.html" class="a4">CONTACTO</a></li>
         </ul>
             </nav>
     </header>
+    <form class="contform">
+        <h1 class="form1"> INICIO DE SESIÓN </h1> <br>
+        <h1 class="txtcont">
+        <label for="aaaa"> INGRESE SU MAIL </label><br>
+        <input type="text" id="first name" name="first name"><br>
+        <label for="bbbb"> INGRESE SU CONRASEÑA </label><br>
+        <input type="text" id="last name" name="last name"><br>
+
+        <input type="radio">
+        <input type="submit">
+    </h1>
+    </form>
+
+    <label for="car"> car</label>
+    <select id="coches" name="coches">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+    </select>
+    <input type="password" id="pwd" name="pwd">
 </body>
 </html>

@@ -1,28 +1,60 @@
-body{
-  background-color: rgb(90, 143, 125);
+/*--------------------------------GENERAL-----------------------------------------*/
+.logo{
+padding-left: 20px;
 }
 
 nav{
-  background-color: rgb(47, 75, 65);
+  height: 110px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 20px;
-  padding-left: 5px;
+  padding-left: 30px;
   padding-right: 5px;
   font-weight: bold;
+  margin-right: 10px;
 }
 
-h1{
-  background-color: brown;
-  color: white;
-  font-size: 45px;
-  padding-left: 50px;
-}
 
 ul li{
   display: inline-block;
-  padding: 0px 50px;
+  padding: 0px 75px;
+}
+
+li:hover{
+  transform: scale(1.1);
+}
+
+
+@font-face{
+  font-family: adlam;
+  src: url(../tipografia/ADLaMDisplay-Regular.ttf);
+}
+
+body{
+  font-family: adlam;
+}
+
+
+/*----------------------------------INDEX INICIO------------------------------------*/
+.indebody{
+margin: 0;
+background-image: url(../gif/snow.gif);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+position: relative;
+}
+
+.indenav{
+  background: rgba(7, 0, 75, 0.75)
+}
+.indesesion{
+  background-color: rgb(7, 0, 75);
+  position: fixed;
+  margin-left: 969px;
+  margin-top: 384px;
+  width: 240px;
+  height: 120px;
 }
 
 a{
@@ -31,5 +63,128 @@ a{
 }
 
 a:hover{
- color: aqua;
+ color: rgb(76, 153, 255);
 }
+
+.txtsesion{
+
+  font-size: 20px;
+  margin-left: 40px;
+  margin-top: 45px;
+
+}
+
+/*---------------------------------INDEX PROYECTOS------------------------------------*/
+.proybody{
+  margin: 0;
+  background-image: url(../gif/garden.gif);
+}
+
+.proynav{
+  background-color: rgba(1, 46, 64, 0.75);
+}
+
+.a2{
+  color: white;
+  text-decoration: none;
+}
+
+.a2:hover{
+ color: rgb(0, 255, 170);
+}
+
+/*---------------------------------INDEX AVANCES--------------------------------------*/
+.avanbody{
+  margin: 0;
+  background-image: url(../gif/boy.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0px -120px;
+}
+
+.avannav{
+  background: rgba(1, 46, 64, 0.75);
+}
+
+.avantable{
+  margin: auto;
+  background-color: rgb(236, 214, 174);
+}
+
+/*----------------------------------INDEX CONTACTO-----------------------------------*/
+.contbody{
+  margin: 0;
+  background-image: url(../gif/city.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.contnav{
+  background-color: rgba(53, 23, 80, 0.75);
+}
+
+.contform{
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.493);
+  width: 500px;
+  height: 300px;
+  left: 60%;
+  margin-top: 300px;
+  padding-left: 50px;
+}
+
+.txtcont{
+  position: relative;
+  left: 50%;
+  font-size: large;
+  position: fixed;
+  color: aqua;
+}
+
+.form1{
+  color:blue
+}
+
+.a4{
+  color: white;
+  text-decoration: none;
+}
+
+.a4:hover{
+ color: rgb(224, 158, 255);
+}
+
+
+/*----------------------------------INDEX SESIÓN-----------------------------------*/
+.sesibody{
+  background-image: url(../gif/cat.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+
+
+
+/*----------------------------------INDEX MARCA-----------------------------------*/
+.ht{
+  margin: 0;
+}
+
+.marc{
+  background-color: rgb(29, 29, 29);
+}
+
+.marc1{
+  background-color: rgb(240, 240, 240);
+}
+
+
+
+
+
+
+
+
