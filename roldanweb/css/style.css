@@ -123,28 +123,6 @@ a:hover{
   background-color: rgba(53, 23, 80, 0.75);
 }
 
-.contform{
-  position: absolute;
-  background-color: rgba(255, 255, 255, 0.493);
-  width: 500px;
-  height: 300px;
-  left: 60%;
-  margin-top: 300px;
-  padding-left: 50px;
-}
-
-.txtcont{
-  position: relative;
-  left: 50%;
-  font-size: large;
-  position: fixed;
-  color: aqua;
-}
-
-.form1{
-  color:blue
-}
-
 .a4{
   color: white;
   text-decoration: none;
@@ -157,14 +135,94 @@ a:hover{
 
 /*----------------------------------INDEX SESIÓN-----------------------------------*/
 .sesibody{
-  background-image: url(../gif/cat.gif);
+  background-image: url(../img/fanta.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
 }
 
+.sesform{
+  position: absolute;
+  background-color: rgba(244, 209, 255, 0.753);
+  width: 500px;
+  height: 380px;
+  left: 18%;
+  margin-top: 285px;
+  padding-left: 50px;
+}
 
+.txtcont{
+  position: relative;
+  left: 21%;
+  font-size: large;
+  position: fixed;
+  color: rgb(49, 49, 49);
+}
 
+.form1{
+  color:rgb(49, 49, 49)
+}
+
+.sesin{
+   color: rgb(230, 175, 228);
+  background-color: rgb(49, 49, 49);
+  width: 200px;
+  height: 50px;
+  font-family: adlam;
+  font-size: larger;
+}
+
+.tuki2{
+  width: 250px;
+}
+
+.toki{
+  margin-left: 80px;
+  color: rgb(49, 49, 49);
+}
+.toki:hover{
+  color: rgb(255, 255, 255);
+}
+
+/*----------------------------------INDEX REGISTRO-----------------------------------*/
+
+.regibody{
+  background-image: url(../img/castle.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.regiform{
+  position: absolute;
+  background-color: rgba(255, 216, 209, 0.753);
+  width: 500px;
+  height: 700px;
+  left: 18%;
+  margin-top: 150px;
+  padding-left: 50px;
+}
+
+.txtcont{
+  position: relative;
+  left: 21%;
+  font-size: large;
+  position: fixed;
+  color: rgb(49, 49, 49);
+}
+
+.form1{
+  color:rgb(49, 49, 49)
+}
+
+.regis{
+  color: rgb(252, 203, 193);
+  background-color: rgb(49, 49, 49);
+  width: 200px;
+  height: 50px;
+  font-family: adlam;
+  font-size: larger;
+}
 
 
 
