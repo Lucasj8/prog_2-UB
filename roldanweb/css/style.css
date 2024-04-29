@@ -52,7 +52,7 @@ position: relative;
   background-color: rgb(7, 0, 75);
   position: fixed;
   margin-left: 969px;
-  margin-top: 384px;
+  margin-top: 462px;
   width: 240px;
   height: 120px;
 }
@@ -131,6 +131,45 @@ a:hover{
 .a4:hover{
  color: rgb(224, 158, 255);
 }
+
+.contform{
+  position: absolute;
+  background-color: rgba(192, 190, 235, 0.753);
+  width: 750px;
+  height: 475px;
+  left: 50%;
+  margin-top: 150px;
+  padding-left: 50px;
+}
+
+.conttxtcont{
+  position: relative;
+  left: 52.6%;
+  font-size: large;
+  position: fixed;
+  color: rgb(49, 49, 49);
+}
+
+.contform1{
+  color:rgb(49, 49, 49)
+}
+
+.contin{
+   color: rgb(220, 216, 255);
+  background-color: rgb(60, 45, 77);
+  width: 250px;
+  height: 50px;
+  font-family: adlam;
+  font-size: larger;
+}
+
+.conttoki{
+  color: rgb(49, 49, 49);
+}
+.conttoki:hover{
+  color: rgb(255, 255, 255);
+}
+
 
 
 /*----------------------------------INDEX SESIÓN-----------------------------------*/
