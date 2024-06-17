@@ -5,16 +5,17 @@
         <link rel="stylesheet" type="text/css" href="../css/style.css">
         <title>crear cuenta</title>
         <link rel="icon" href="../img/pesta.ico">
+        <script type="text/javascript" src="../js/script.js"></script>
     </head>
     <body class="regibody">
         <form class="regiform">
             <h1 class="form1"><u> CREAR CUENTA </u></h1> <br>
             <h1 class="txtcont">
                 <label for="usuario"> NOMBRE </label><br>
-                <input type="text" id="usuario" name="usuario"><br><br>
+                <input type="text" id="usuario" name="usuario" required><br><br>
                 
                 <label for="usuario"> APELLIDO </label><br>
-                <input type="text" id="usuario" name="usuario"><br><br>
+                <input type="text" id="usuario" name="usuario" required><br><br>
 
                 <label for="usuario"> NOMBRE DE USUARIO </label><br>
                 <input type="text" id="usuario" name="usuario"><br><br>
@@ -34,5 +35,13 @@
                                 <input type="submit" value="REGISTRARME" class="regis">
             </h1>
         </form>
+        <h1 class="anim">HAZ CLICK PARA MOVER EL CUADRADO</h1>
+        <p class="anim">
+        <button onclick="myMove()">Click aquí</button> 
+        </p>
+        
+        <div class="anim2" id ="myContainer">
+        <div id ="myAnimation"></div>
+        </div>
     </body>
 </html>
