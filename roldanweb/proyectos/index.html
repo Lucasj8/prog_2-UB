@@ -5,6 +5,26 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>proyectos</title>
     <link rel="icon" href="../img/pesta.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+    $(function() {
+        var pull = $('#pull');
+        menu = $('nav ul');
+        menuHeight = menu.height();
+    
+        $(pull).on('click', function(e) {
+            e.preventDefault();
+            menu.slideToggle();
+        });
+    });
+    
+    $(window).resize(function(){
+        var w = $(window).width();
+        if(w > 320 && menu.is(':hidden')) {
+            menu.removeAttr('style');
+        }
+    });
+    </script>
 </head>
 <body class="proybody">
     <header>
@@ -12,12 +32,23 @@
                 <div class="logo">
                     <a href="../logo/index.html"><img src="../img/logob.png" width="120px"></a></div>
         <ul>
-            <li><a href="../index.html" class="a2">INICIO</a></li>
-                <li><a href="../proyectos/index.html" class="a2">PROYECTOS</a></li>
-                    <li><a href="../avances/index.html" class="a2">AVANCES</a></li>
-                        <li><a href="../contacto/index.html" class="a2">CONTACTO</a></li>
+            <li><a href="../index.html" >INICIO</a></li>
+                <li><a href="../proyectos/index.html" >PROYECTOS</a></li>
+                    <li><a href="../avances/index.html" >AVANCES</a></li>
+                        <li><a href="../contacto/index.html" >CONTACTO</a></li><br clear="all"/>
         </ul>
+        <a id="pull" href="#"></a>
             </nav>
     </header>
+    <table class="avantable">
+        <tr>
+            <td><img src="../img/f4.jpeg" width="200"  height="220"></td>
+            <td><img src="../img/godot.png" width="200"  height="220"></td>
+        </tr>
+        <tr>
+            <th>Main character</th>
+            <th>Motor: Godot Engine</th>
+        </tr>
+    </table>
 </body>
 </html>

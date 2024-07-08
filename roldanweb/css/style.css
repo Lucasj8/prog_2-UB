@@ -1,4 +1,47 @@
 /*--------------------------------GENERAL-----------------------------------------*/
+@media only screen and (max-width : 500px) {
+  nav {
+      border-bottom: 0;
+      height: auto;
+  }
+
+  nav ul {
+      display: none;
+      height: auto;
+      width: 100%;
+  }
+
+  nav li {
+      width: 50%;
+      float: left;
+      position: relative;
+  }
+
+  nav a {
+      text-align: left;
+      width: 100%;
+      text-indent: 25px;
+  }
+
+  nav a#pull {
+      display: block;
+      width: 100%;
+      position: relative;
+  }
+
+  nav a#pull:after {
+      content:"";
+      background: url('../img/lines.png') no-repeat;
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      position: absolute;
+      right: 15px;
+      top: 10px;
+  }
+
+}
+
 .logo{
 padding-left: 20px;
 }
@@ -84,22 +127,15 @@ a:hover{
   background-color: rgba(1, 46, 64, 0.75);
 }
 
-.a2{
-  color: white;
-  text-decoration: none;
-}
-
-.a2:hover{
- color: rgb(0, 255, 170);
-}
 
 /*---------------------------------INDEX AVANCES--------------------------------------*/
 .avanbody{
   margin: 0;
   background-image: url(../gif/boy.gif);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  background-position: 0px -120px;
+ 
 }
 
 .avannav{

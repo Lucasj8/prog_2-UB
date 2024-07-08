@@ -5,6 +5,26 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <title>avances</title>
     <link rel="icon" href="../img/pesta.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+    $(function() {
+        var pull = $('#pull');
+        menu = $('nav ul');
+        menuHeight = menu.height();
+    
+        $(pull).on('click', function(e) {
+            e.preventDefault();
+            menu.slideToggle();
+        });
+    });
+    
+    $(window).resize(function(){
+        var w = $(window).width();
+        if(w > 320 && menu.is(':hidden')) {
+            menu.removeAttr('style');
+        }
+    });
+    </script>
 </head>
 <body class="avanbody">
     <header>
@@ -15,22 +35,21 @@
             <li><a href="../index.html">INICIO</a></li>
                 <li><a href="../proyectos/index.html">PROYECTOS</a></li>
                     <li><a href="../avances/index.html">AVANCES</a></li>
-                        <li><a href="../contacto/index.html">CONTACTO</a></li>
+                        <li><a href="../contacto/index.html">CONTACTO</a></li><br clear="all"/>
         </ul>
+        <a id="pull" href="#"></a>
             </nav>
     </header>
     <table class="avantable">
         <tr>
-            <td><img src="../img/s1.png" width="270"  height="200"></td>
-            <td><img src="../img/s2.jpg" width="270"  height="200"></td>
-            <td><img src="../img/s3.jpg" width="270"  height="200"></td>
-            <td><img src="../img/s4.jpg" width="270"  height="200"></td>
+            <td><img src="../img/f1.jpeg" width="270"  height="200"></td>
+            <td><img src="../img/f2.jpeg" width="270"  height="200"></td>
+            <td><img src="../img/f3.jpeg" width="270"  height="200"></td>
         </tr>
         <tr>
-            <th>service 1</th>
-            <th>service 2</th>
-            <th>service 3</th>
-            <th>service 4</th>
+            <th>Background V1</th>
+            <th>Background V2</th>
+            <th>Background V3</th>
         </tr>
     </table>
 </body>
