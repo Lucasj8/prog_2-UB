@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>inicio de sesión</title>
+    <link rel="icon" href="../img/pesta.ico">
+</head>
+<body class="sesibody">
+    <header>
+        <nav class="contnav">
+            <div class="logo">
+                <a href="../logo/index.html"><img src="../img/logob.png" width="120px"></a>
+            </div>
+                <ul>
+                    <li><a href="../index.html" class="a4">INICIO</a></li>
+                    <li><a href="../proyectos/index.html" class="a4">PROYECTOS</a></li>
+                    <li><a href="../avances/index.html" class="a4">AVANCES</a></li>
+                    <li><a href="../web/index.html">JUEGO</a></li>
+                    <li><a href="../contacto/index.html" class="a4">CONTACTO</a></li><br clear="all"/>
+                </ul>
+                <a id="pull" href="#"></a>
+        </nav>
+</header>
+    <form action="procesar.php"  method="post" class="sesform">
+        <h1 class="form1"><u> INICIO DE SESIÓN </u></h1> <br>
+        <h1 class="txtcont25">
+        <label for="usuario"> NOMBRE DE USUARIO </label><br>
+        <input type="text" id="usuario" name="usuario" class="tuki2"><br><br>
+        <label for="pwd"> CONRASEÑA </label><br>
+        <input type="password" id="pwd" name="pwd"><br><br>
+        <input type="checkbox">
+        <label for="checkbox">Recordar usuario</label><br><br>
+        <input type="submit" value="INGRESAR" class="sesin">
+        <a href="../registro/index.html" class="toki">crear cuenta</a>
+        </h1>
+    </form>
+</body>
+</html>

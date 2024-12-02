@@ -1,0 +1,382 @@
+/*--------------------------------GENERAL-----------------------------------------*/
+@media only screen and (max-width : 500px) {
+  nav {
+      border-bottom: 0;
+      height: auto;
+  }
+
+  nav ul {
+      display: none;
+      height: auto;
+      width: 100%;
+  }
+
+  nav li {
+      width: 50%;
+      float: left;
+      position: relative;
+  }
+
+  nav a {
+      text-align: left;
+      width: 100%;
+      text-indent: 25px;
+  }
+
+  nav a#pull {
+      display: block;
+      width: 100%;
+      position: relative;
+  }
+
+  nav a#pull:after {
+      content:"";
+      background: url('../img/lines.png') no-repeat;
+      width: 30px;
+      height: 30px;
+      display: inline-block;
+      position: absolute;
+      right: 15px;
+      top: 10px;
+  }
+
+}
+
+.logo{
+padding-left: 20px;
+}
+
+nav{
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 5px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+
+ul li{
+  display: inline-block;
+  padding: 0px 75px;
+}
+
+li:hover{
+  transform: scale(1.1);
+}
+
+
+@font-face{
+  font-family: adlam;
+  src: url(../tipografia/ADLaMDisplay-Regular.ttf);
+}
+
+body{
+  font-family: adlam;
+}
+
+
+/*----------------------------------INDEX INICIO------------------------------------*/
+.indebody{
+margin: 0;
+background-image: url(../gif/snow.gif);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+position: relative;
+}
+
+.indenav{
+  background: rgba(7, 0, 75, 0.75)
+}
+.indesesion{
+  background-color: rgb(7, 0, 75);
+  position: fixed;
+  margin-left: 969px;
+  margin-top: 462px;
+  width: 240px;
+  height: 120px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+
+a:hover{
+ color: rgb(76, 153, 255);
+}
+
+.txtsesion{
+
+  font-size: 25px;
+  margin-left: 40px;
+  margin-top: 45px;
+
+}
+
+/*---------------------------------INDEX PROYECTOS------------------------------------*/
+.proybody{
+  margin: 0;
+  background-image: url(../gif/garden.gif);
+}
+
+.proynav{
+  background-color: rgba(1, 46, 64, 0.75);
+}
+
+
+/*---------------------------------INDEX GAME------------------------------------*/
+.hhbody{
+  margin: 0;
+  background-image: url(../gif/cat3.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-x: right;
+}
+
+.hhnav{
+  background-color: rgba(37, 97, 64, 0.75);
+}
+
+
+/*---------------------------------INDEX AVANCES--------------------------------------*/
+.avanbody{
+  margin: 0;
+  background-image: url(../gif/boy.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+ 
+}
+
+.avannav{
+  background: rgba(1, 46, 64, 0.75);
+}
+
+.avantable{
+  margin: auto;
+  background-color: rgb(236, 214, 174);
+}
+
+/*----------------------------------INDEX CONTACTO-----------------------------------*/
+.contbody{
+  margin: 0;
+  background-image: url(../gif/city.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.contnav{
+  background-color: rgba(53, 23, 80, 0.75);
+}
+
+.a4{
+  color: white;
+  text-decoration: none;
+}
+
+.a4:hover{
+ color: rgb(224, 158, 255);
+}
+
+.contform{
+  position: absolute;
+  background-color: rgba(192, 190, 235, 0.753);
+  width: 750px;
+  height: 475px;
+  left: 5%;
+  margin-top: 150px;
+  padding-left: 50px;
+}
+
+.conttxtcont{
+  position: relative;
+  left: 1%;
+  font-size: large;
+  color: rgb(49, 49, 49);
+}
+
+.contform1{
+  color:rgb(49, 49, 49)
+}
+
+.contin{
+   color: rgb(220, 216, 255);
+  background-color: rgb(60, 45, 77);
+  width: 250px;
+  height: 50px;
+  font-family: adlam;
+  font-size: larger;
+}
+
+.conttoki{
+  color: rgb(49, 49, 49);
+}
+.conttoki:hover{
+  color: rgb(255, 255, 255);
+}
+
+
+
+/*----------------------------------INDEX SESIÓN-----------------------------------*/
+.sesibody{
+  margin: 0;
+  background-image: url(../img/fanta.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.sesform{
+  position: absolute;
+  background-color: rgba(244, 209, 255, 0.753);
+  width: 500px;
+  height: 380px;
+  left: 18%;
+  margin-top: 285px;
+  padding-left: 50px;
+}
+
+.txtcont25{
+  position: relative;
+  left: 1%;
+  font-size: large;
+  color: rgb(49, 49, 49);
+}
+
+.form1{
+  color:rgb(49, 49, 49)
+}
+
+.sesin{
+   color: rgb(230, 175, 228);
+  background-color: rgb(49, 49, 49);
+  width: 200px;
+  height: 50px;
+  font-family: adlam;
+  font-size: larger;
+}
+
+.tuki2{
+  width: 250px;
+}
+
+.toki{
+  margin-left: 80px;
+  color: rgb(49, 49, 49);
+}
+.toki:hover{
+  color: rgb(255, 255, 255);
+}
+
+/*----------------------------------INDEX REGISTRO-----------------------------------*/
+
+.regibody{
+  margin: 0;
+  background-image: url(../img/castle.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.regiform{
+  position: absolute;
+  background-color: rgba(255, 216, 209, 0.753);
+  width: 500px;
+  height: 700px;
+  left: 18%;
+  margin-top: 150px;
+  padding-left: 50px;
+}
+
+.txtcont50{
+  position: relative;
+  left: 1%;
+  font-size: large;
+  color: rgb(49, 49, 49);
+}
+
+.form1{
+  color:rgb(49, 49, 49)
+}
+
+.regis{
+  color: rgb(252, 203, 193);
+  background-color: rgb(49, 49, 49);
+  width: 200px;
+  height: 50px;
+  font-family: adlam;
+  font-size: larger;
+}
+
+.ahr {
+  text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+
+.ok {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #1e6;
+	color: #fff
+}
+.bad {
+	text-align: center;
+	width: 100%;
+	padding: 12px;
+	background-color: #a22;
+	color: #fff
+}
+
+/*----------------------------------INDEX MARCA-----------------------------------*/
+.ht{
+  margin: 0;
+}
+
+.marc{
+  background-color: rgb(29, 29, 29);
+}
+
+.marc1{
+  background-color: rgb(240, 240, 240);
+}
+
+/*----------------------------------INDEX RESPON-----------------------------------*/
+.anim{
+  margin-left: 1000px;
+}
+
+.anim2{
+  width: 10%;
+  margin-left: 1000px;
+}
+
+
+#Container {
+	width: auto;
+	height:auto;
+	position: relative;
+	background-color: #FFCC99;
+}
+#myContainer {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  background:#be0672;
+}
+
+#myAnimation {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background:#ffedfb ;
+}
+

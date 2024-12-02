@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+        <head>
+            <meta charset="utf-8">
+            <link rel="stylesheet" type="text/css" href="../css/style.css">
+            <title>contacto</title>
+            <link rel="icon" href="../img/pesta.ico">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+    $(function() {
+        var pull = $('#pull');
+        menu = $('nav ul');
+        menuHeight = menu.height();
+    
+        $(pull).on('click', function(e) {
+            e.preventDefault();
+            menu.slideToggle();
+        });
+    });
+    
+    $(window).resize(function(){
+        var w = $(window).width();
+        if(w > 320 && menu.is(':hidden')) {
+            menu.removeAttr('style');
+        }
+    });
+    </script>
+        </head>
+    <body class="contbody">
+        <header>
+                <nav class="contnav">
+                    <div class="logo">
+                        <a href="../logo/index.html"><img src="../img/logob.png" width="120px"></a>
+                    </div>
+                        <ul>
+                            <li><a href="../index.html" class="a4">INICIO</a></li>
+                            <li><a href="../proyectos/index.html" class="a4">PROYECTOS</a></li>
+                            <li><a href="../avances/index.html" class="a4">AVANCES</a></li>
+                            <li><a href="../web/index.html" class="a4">JUEGO</a></li>
+                            <li><a href="../contacto/index.html" class="a4">CONTACTO</a></li><br clear="all"/>
+                        </ul>
+                        <a id="pull" href="#"></a>
+                </nav>
+        </header>
+        <form class="contform">
+            <h1 class="contform1"><u> CONTÁCTANOS A TRAVES DE NUESTRO MAIL </u></h1>
+            <h1 class="conttxtcont">
+            <label for="usuario"> TU COMENTARIO SERÁ ENVIADO A ROLDANWEB@GMAIL.COM </label><br><br>
+            <textarea rows="8" cols="80"></textarea><br><br>
+            <input type="submit" value="ENVIAR MENSAJE" class="contin"><br><br>
+            <label for="usuario"> Debes <a href="../sesion/index.html"
+                class="conttoki"> iniciar sesión </a>para poder enviar un comentario. </label><br><br>
+            <label for="usuario">
+                 ¿ No tienes una cuenta ? Puedes crear una haciendo
+                 <a href="../registro/index.html" class="conttoki">click aquí.</a></label>
+            </h1>
+        </form>
+    </body>
+</html>
